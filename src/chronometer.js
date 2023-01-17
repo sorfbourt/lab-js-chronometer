@@ -33,6 +33,8 @@ class Chronometer {
     return value.toString()
   }
 
+  //computeTwoDigitNumber(value) {return ("0" + value).slice(-2))}
+
   stop() {
     clearInterval(this.intervalId)
   }
